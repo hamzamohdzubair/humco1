@@ -4,75 +4,132 @@ title = "Human Collective"
 theme = "hargo"
 publishDir = "docs"
 
-
-# Plugins
+############################# Plugins ##############################
 [params.plugins]
 
   # CSS Plugins
   [[params.plugins.css]]
-  URL = "css/main.css"
+  link = "plugins/bootstrap/bootstrap.min.css"
   [[params.plugins.css]]
-  URL = "css/rad-icons.css"
+  link = "plugins/slick/slick.css"
   [[params.plugins.css]]
-  URL = "css/custom.css"
+  link = "plugins/themify-icons/themify-icons.css"
 
   # JS Plugins
   [[params.plugins.js]]
-  URL = "js/rad-animations.js"
+  link = "plugins/jQuery/jquery.min.js"
   [[params.plugins.js]]
-  URL = "js/sticky-header.js"
+  link = "plugins/bootstrap/bootstrap.min.js"
   [[params.plugins.js]]
-  URL = "js/library/fontfaceobserver.js"
+  link = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  link = "plugins/google-map/gmap.js"
 
-
-# navigation
+  
+############################## navigation ###############################
 [menu]
-
-  [[menu.header]]
-  name = "About"
-  URL = "#about"
+    
+  [[menu.main]]
+  name = "Products"
+  URL = "products"
+  weight = 1
+  
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
   weight = 2
-
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  
+  [[menu.main]]
+  name = "FAQ"
+  URL = "faq"
   weight = 3
-
-  [[menu.header]]
+  
+  [[menu.main]]
   name = "Contact"
-  URL = "#contact"
+  URL = "contact"
   weight = 4
 
-
+  ############# footer menu #############
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "Products"
+  URL = "products"
+  weight = 1
+  
+  [[menu.footer]]
+  name = "Blog"
+  URL = "blog"
   weight = 2
-
+  
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "FAQ"
+  URL = "faq"
   weight = 3
-
+  
+  [[menu.footer]]
+  name = "Terms & Conditions"
+  URL = "terms-conditions"
+  weight = 4
+  
   [[menu.footer]]
   name = "Contact"
-  URL = "#contact"
-  weight = 4
+  URL = "contact"
+  weight = 5
 
 
+#################### default parameters ################################
 [params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+mapLatitude = "51.5223477"
+mapLongitude = "-0.1622023"
+mapMarker = "images/marker.png"
+# Google Analitycs
+googleAnalitycsID = "" # Your ID
+# Contact Information
+mobile = "0124857985320"
+email = "demo@email.com"
+location = "Dhaka, Bangladedsh"
+# copyright
+copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  # Product Rating
+  # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
+  [params.rating]
+  enable = true
+  websiteID = "444334"
+  publicKey = "811cf0927332bf51f2e12f84608594ac"
 
-  [params.logo]
-    text1 = "Human"
-    text2 = "Collective"
+  # Social Site
+  [[params.social]]
+  icon = "ti-facebook"
+  link = "#"
+  
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  link = "#"
+  
+  [[params.social]]
+  icon = "ti-youtube"
+  link = "#"
+  
+  [[params.social]]
+  icon = "ti-instagram"
+  link = "#"
+  
+  [[params.social]]
+  icon = "ti-pinterest"
+  link = "#"
 
-  [params.footer]
-      copyright = "© Human Collective. All rights reserved."
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+  # Contact Form
+  [params.contact]
+  formAction = "#" # contact form works with formspree.io
