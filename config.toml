@@ -2,6 +2,7 @@ baseURL = "http://humancollective.in/"
 languageCode = "en-us"
 title = "Human Collective"
 theme = "raditian"
+publishDir = "docs"
 
 
 # Plugins
