@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Human Collective"
 theme = "hargo"
 publishDir = "docs"
+summaryLength = "20"
+paginate = 10
+disqusShortname = ""
 
 ############################# Plugins ##############################
 [params.plugins]
