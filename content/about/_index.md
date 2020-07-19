@@ -1,8 +1,8 @@
 ---
 title: "About Us"
 date: 2018-07-12T18:19:33+06:00
-heading : "WE ARE ROXO DESIGN. AN AWARD-WINNING CREATIVE STUDIO IN FLORIDA."
-description : "We are specialized in developing forward-thinking brand identities, websites, illustration and animation for all types of customers. And we do this by bringing our customers through each phase of the design process with us."
-expertise_title: "Expertise"
-expertise_sectors: ["Customer Experience Design", "Digital Products", "Development", "Campaign & Content", "Employer Branding", "Animation & Motion Graphics", "Packaging & Product Design", "Retail & Spacial", "Print & Editorial Design", "Concept/Text", "Information Design"]
+heading : "OUR VISION"
+description : "Human Collective aspires for India a leadership of people of conscience and calibre in a government that is representative of its diversity, chosen by an informed electorate, to raise a society in which people have justice, opportunity, safety and dignity regardless of caste, class or creed."
+expertise_title: "GOALS"
+expertise_sectors: ["Public Education", "Research & Analysis", "Legal Interventions", "Public Interventions"]
 ---

@@ -1,14 +1,14 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
+heading : "What we strive for"
 counter_item: 
-  - title: "Happy Clients"
+  - title: "Hate Speech Stopped"
     number: "250"
 
-  - title: "Projects Completed"
-    number: "100"
+  - title: "Protests Conducted"
+    number: "3"
 
-  - title: "Cups of coffee"
-    number: "350"
+  - title: "Articles Published"
+    number: "3"
 
-  - title: "Telephone Talks"
-    number: "775"
+  - title: "Lectures Delivered"
+    number: "10"
